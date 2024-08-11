@@ -4,7 +4,7 @@
 import { useState,useEffect } from 'react';
 import Card from './Card'
 import mockData from '../MockData/mockdata.json'; // Assuming mock data is stored locally
-import './Styles/Display.css'
+import 'src/MockData/mockData.json'
 
 const DisplayPage = ({ onSelectEvent }) => { // Ensure this prop is received
   const [events, setEvents] = useState([]);
